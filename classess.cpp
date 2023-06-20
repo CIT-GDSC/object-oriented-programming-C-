@@ -1,3 +1,4 @@
+//classes
 #include <iostream>
 using std::string;
 
@@ -28,4 +29,6 @@ int main()
 
     Employee employee2 = Employee("beta", "domains21", 24);
     employee2.introduce_yourself();
+    std::string userInput;
+
 }
