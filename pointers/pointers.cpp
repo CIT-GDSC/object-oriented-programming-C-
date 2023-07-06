@@ -6,10 +6,12 @@ using std::string;
 
 
 int main () {
-    int x=5, y=9, sum;
-
-    sum = x + y;
-    cout << "The sum is: " << sum << endl;
+    int a = 10;
+    int *p = &a;
+    cout << "a = " << a << endl;
+    cout << "p = " << p << endl;
+    cout << "*p = " << *p << endl;
+    cout << "&a = " << &a << endl;
+    cout << "&p = " << &p << endl;
     return 0;
-
 }
