@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/gibso/Documents/GitHub/c++-oop",
-      "program": "c:/Users/gibso/Documents/GitHub/c++-oop/build/Debug/outDebug",
+      "cwd": "c:/Users/sourcecodes/Documents/GitHub/object-oriented-programming-C-",
+      "program": "c:/Users/sourcecodes/Documents/GitHub/object-oriented-programming-C-/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
