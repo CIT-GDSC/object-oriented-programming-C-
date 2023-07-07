@@ -14,35 +14,36 @@ private:
     int Age;
 
 public:
-    void setName(string name){
+    void setName(string name)
+    {
         this->Name = name;
     };
-    //getter
-    string getName(){
+    // getter
+    string getName()
+    {
         return Name;
     };
 
-    void setCompany( string company){
+    void setCompany(string company)
+    {
         this->Company = company;
     };
 
-    string getCompany(){
+    string getCompany()
+    {
         return Company;
     };
 
-    void setAge( int age){ 
+    void setAge(int age)
+    {
         // age > 18 ? this->Age = age : throw("validation error");
-        if(age!= 18){
-            cout << "age has to be greater than 18";
-        } else{
-            this->Age = age;
-        }
+        this->Age = age;
     };
 
-    int getAge(){
+    int getAge()
+    {
         return Age;
     }
-
 
     void introduce_yourself()
     {
@@ -50,8 +51,9 @@ public:
         cout << " company\t" << Company << endl;
         cout << "age\t" << Age << endl;
     }
-    //comstructor
-    Employee( string name, string company, int age){
+    // comstructor
+    Employee(string name, string company, int age)
+    {
         Name = name;
         Company = company;
         Age = age;
@@ -60,14 +62,15 @@ public:
 
 int main()
 {
-    Employee employee1 = Employee("Martin", "marvel",  0);
-    Employee employee2 = Employee("console", "javascript",  0);
+    Employee employee1 = Employee("Martin", "marvel", 0);
+    Employee employee2 = Employee("console", "javascript", 0);
     // employee1.introduce_yourself();
-    
 
-    //tests the setters
+    // tests the setters
     employee1.setAge(4);
-    cout << employee1.getName()<<"\t"<< "is\t"<< employee1.getAge() << endl;
+    cout << employee1.getName() << "\t"
+         << "is\t" << employee1.getAge() << endl;
     employee2.setAge(10);
-    cout << employee2.getName()<<"\t"<< "is\t"<< employee2.getAge() << endl;
+    cout << employee2.getName() << "\t"
+         << "is\t" << employee2.getAge() << endl;
 }
