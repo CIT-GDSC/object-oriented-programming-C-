@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/sourcecodes/Documents/GitHub/object-oriented-programming-C-",
-      "program": "c:/Users/sourcecodes/Documents/GitHub/object-oriented-programming-C-/build/Debug/outDebug",
+      "program": "c:/Users/sourcecodes/Documents/GitHub/object-oriented-programming-C-/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
